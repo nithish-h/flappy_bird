@@ -17,20 +17,20 @@ let hitSound, flapSound, pointSound, failSound;
 
 function preload() {
 	// images
-	bg = loadImage("assets/bg.png");
-	groundImg = loadImage("assets/ground.png");
-	birdImg = loadImage("assets/bird.png");
-	pipeUpImg = loadImage("assets/pipeup.png");
-	pipeDownImg = loadImage("assets/pipedown.png");
+	bg = loadImage("bg.png");
+	groundImg = loadImage("ground.png");
+	birdImg = loadImage("bird.png");
+	pipeUpImg = loadImage("pipeup.png");
+	pipeDownImg = loadImage("pipedown.png");
 
 	// font
-	flappyFont = loadFont("assets/flappy-font.ttf");
+	flappyFont = loadFont("flappy-font.ttf");
 
 	// sounds
-	hitSound = loadSound("assets/sounds/hit-sound.wav");
-	flapSound = loadSound("assets/sounds/flap-sound.mp3");
-	pointSound = loadSound("assets/sounds/point-sound.mp3");
-	failSound = loadSound("assets/sounds/fail-sound.mp3");
+	hitSound = loadSound("hit-sound.wav");
+	flapSound = loadSound("flap-sound.mp3");
+	pointSound = loadSound("point-sound.mp3");
+	failSound = loadSound("fail-sound.mp3");
 }
 
 // runs on startup
